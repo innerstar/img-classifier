@@ -1,8 +1,8 @@
 [build]
-    base = "/"
-    publish = "public/"
-    command = "npm run build"
-    functions = "functions/"
+base = "/"
+publish = "public/"
+command = "npm install && npm run build"
+functions = "functions/"
 
 [dev]
 publish = "public"
