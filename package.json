@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "./mode_modules/.bin/netlify-lambda serve .",
-    "build": "./mode_modules/.bin/netlify-lambda build ."
+    "start": "./node_modules/.bin/netlify-lambda serve .",
+    "build": "./node_modules/.bin/netlify-lambda build ."
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
